@@ -30,13 +30,13 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: 'instagram',
+        url: 'https://instagram.com/_amateras_u_?igshid=YmMyMTA2M2Y='
     }
 }, {
   urlButton: {
     displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro+how+are+you+🗿'
     }
 }, {
     quickReplyButton: {
@@ -50,7 +50,7 @@ Module({
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
+        displayText: 'my instagram',
         id: 'support'+myid
     }
 }]
@@ -61,8 +61,8 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
-┃✩│ Ram: 1024 MB
-┃✩│ Disk Space: 620 GB
+┃✩│ Ram: 6 MB
+┃✩│ Disk Space: 2 kb
 ┃✩│ Version: ${config.VERSION}
 ┃✩│
 ┃✩│
@@ -143,7 +143,7 @@ Module({
 }, (async (message, match) => {
   const start = new Date().getTime()
   await message.client.sendMessage(message.jid, {
-      text: '*❮ ᴛᴇsᴛɪɴɢ ᴘɪɴɢ ❯*'
+      text: '*❮ testing network ❯*'
   })
   const end = new Date().getTime()
   await message.client.sendMessage(message.jid, {
