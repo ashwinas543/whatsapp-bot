@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"whatsapp-public-bot by Ashwin 〽️"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,22 +51,22 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"public-bot"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"public-bot;♘⍣⃝𝑨᪵𝑺᪵𝑯᪵𝑾᪵𝑰᪵𝑵⃝᪵♘⍣;https://i.imgur.com/xo1hIAG.jpeg"
         },
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"916282137207"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
